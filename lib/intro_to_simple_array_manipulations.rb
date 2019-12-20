@@ -27,5 +27,5 @@ def using_concat (arg1, arg2)
 end
 
 def using_insert (arr, ele)
-  arr.insert(ele)[4]
+  arr[4].insert(ele)
 end
