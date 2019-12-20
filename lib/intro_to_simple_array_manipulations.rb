@@ -7,7 +7,8 @@ def using_unshift (arr,str)
 end
 
 def using_pop (arr,str)
-  arr.pop(str)
+  popped = arr.pop(str)
+  popped
 end
 
 def pop_with_args (arr, arg1, arg2)
